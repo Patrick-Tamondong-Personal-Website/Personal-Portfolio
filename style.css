@@ -12,37 +12,57 @@ div{
 header {
     font-size: 2rem;
     position: fixed;
-    /*
-
-    */
     left: 0;
     right: 0;
+    top: 0;
     padding: .5em 1em;
-    box-shadow: 0 2px 4px -2px black;
+    margin-bottom:5em;
+    box-shadow: 0 2px 4px -2px rgb(12, 103, 7);
+    
+    /*
     border: .3em solid rgba(210, 52, 187, 0.583);
+    */
   }
 
+.char img{
+    border: .3em solid rgb(84, 84, 84);
+}
 .canvas{
     background-color: rgba(15, 15, 15, 0.629);
-    margin: 0.5em;
+    margin: 6em 0 0 0;
     padding: 0.5em;
-    display: block;
-    border: .3em solid rgba(255, 255, 255, 0.583);
+    display: flex;
+    flex-direction: column;
+    border: .2em solid rgba(255, 255, 255, 0.583);
+    /*
+    
+    */
 }
 
 .logo{
     float: left;
+    
+    /*
     border: .3em solid rgba(50, 12, 145, 0.583);
+    */
 }
 .links{
     float: right;
-    border: .3em solid rgba(222, 0, 0, 0.583);
+  
+    /*
+      border: .3em solid rgba(222, 0, 0, 0.583);
+    */
 }
 .char{
     display: grid;
-    grid-template-columns: 1f 1f 1f;
+    grid-template-columns: 20% 30% 50%;
     grid-gap:1em;
+
 }
 .banner{
+    /*
     border: .3em solid rgba(0, 0, 0, 0.583);
+    */
+    
+    overflow: auto;
 }
